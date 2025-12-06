@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaNow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">     
+</head>
+
+<body >
+
+    <button type="button" id="dark-mode-btn" class="dark-mode-btn">
+        <img src="img/darkMode.png" alt="">
+    </button type="submit">
+   
+    <main class="container-main">
+
+        <header>
+
+            <div class="logo">
+                <img src="img/Logo.png" alt="logo ClimaNow">
+                <h1>Clima<span>Now</span></h1>
+            </div>
+
+            <form action="">
+                <input type="text" name="inputSearch" id="inputSearch" placeholder="Digite o nome da cidade...">
+                <img src="img/lupa.png" alt="Buscar" class="search-icon">
+            </form>
+
+
+        </header>
+
+
+
+        <section class="info-cidadades">
+
+            <div class="autocomplete">
+            
+            </div>
+
+            <h2 class="city-name"></h2>
+            <div class="weather-main">
+                <span class="temperature"></span>
+                <span class="weather-icon-main"></span>
+            </div>
+            <p class="weather-condition"></p>
+        </section>
+
+        <h4>Previsão Próximos 6 dias</h4>
+
+        <section class="cards-days">
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+            <div class="days">
+                <span class="day-name"></span>
+                <span class="weather-icon"></span>
+                <span class="day-condition"></span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
