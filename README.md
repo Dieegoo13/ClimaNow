@@ -67,4 +67,4 @@ git clone https://github.com/Dieegoo13/ClimaNow.git
 `````
 <h2 id="preview">📸 Preview do Projeto</h2> 
 
-![Tela inicial](img/homeClimanow.png)
+![Tela inicial](img/homeClimaNow.png)
